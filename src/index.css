@@ -2,4 +2,102 @@ html,
 body,
 #root {
   height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img {
+  position: absolute;
+  bottom: 17px;
+  margin-left: 650px;
+  cursor: pointer;
+}
+
+.chat-bubble {
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid;
+  display: inline-block;
+}
+
+.chat-start {
+  position: absolute;
+  left: 350px;
+  top: 420px;
+}
+
+.chat-end {
+  position: absolute;
+  right: 350px;
+  top: 520px;
+}
+
+.div {
+  margin: 0;
+  padding: 0;
+}
+
+.info {
+  display: flex;
+  margin-top: 20px;
+}
+
+.infoImg {
+  margin: 10px 20px 40px;
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bio {
+  font-size: 15px;
+  margin-top: -5px;
+}
+
+.user {
+  color: blue;
+  cursor: pointer;
+}
+
+.notif {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  h4 {
+    margin-right: 50px;
+  }
+}
+
+.icon {
+  margin: 10px 20px 0;
+}
+
+.tools {
+  display: flex;
+  align-items: end;
+  gap: 20px;
+  cursor: pointer;
+  
+}
+
+.box {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.red {
+  color: red;
 }
